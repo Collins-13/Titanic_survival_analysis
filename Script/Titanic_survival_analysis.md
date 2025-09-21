@@ -306,7 +306,7 @@ print("\nClassification Report:")
 print(classification_report(y_test, y_pred))
 ```
 
-![Accuracy](../Screenshot/accuracy.png)
+![Accuracy](../Screenshot/accuracy.PNG)
 
 **Accuracy:** The Logistic Regression model achieved an accuracy of 0.81, correctly predicting survival for 81% of passengers in the test set.
 
@@ -331,10 +331,11 @@ log_reg_balanced.fit(X_train, y_train)
 
 y_pred_balanced = log_reg_balanced.predict(X_test)
 ```
-![balanced class weights](../Screenshot/balanced_class_weights.png)
+![balanced class weights](../Screenshot/balanced_class_weights.PNG)
 
  # Conclusion
 
 This analysis shows how we can use cleaned and prepared Titanic data to predict whether a passenger survived. By looking at features like age, gender, and passenger class, we can see which factors had the biggest impact on survival.
+
 
 These findings help us understand the story behind the data and show how data can be used to answer real-world questions.
